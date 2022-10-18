@@ -1,0 +1,19 @@
+
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
+DB: Concessionario Auto;
+
+Tabella: Auto;
+
+Nome Colonne:
+
+- id                BIGINT          PRIMARY_KEY, UNIQUE, AUTO_INCREMENT, NOT_NULL
+- brand             VARCHAR(100)    NOT_NULL
+- modello           VARCHAR(100)    NOT_NULL
+- cavalli           SMALLINT        
+- alimentazione     VARCHAR(50)     
+- condizione        VARCHAR(100)    NOT_NULL
+- colors            VARCHAR(50)     
+- porte_numero      TINYINT         
+- ruote_diametro    TINYINT         
+
+
